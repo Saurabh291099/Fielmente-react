@@ -1,0 +1,5 @@
+@media screen and (max-with:600px) {
+    .section_dark{
+        padding: 1rem;
+    }
+}
