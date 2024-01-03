@@ -1,0 +1,63 @@
+.about-us-banner-heading {
+    color: #0F110F;
+    font-family: Inter;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5.15625rem;
+}
+
+.about-us-banner-section p {
+    color: #000;
+    font-family: Lexend Deca;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1375rem;
+    letter-spacing: -0.011rem;
+}
+
+.buttons-link a {
+    background-color: #0F110F;
+    color:  #FFF;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem;
+    letter-spacing: -0.011rem;
+}
+
+
+/* ********************************** */
+/* --------about-us-section-1-------- */
+/* ********************************** */
+
+
+.about-us-content-wrap h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-family: "Inter",sans-serif;
+    line-height: 3.063rem;
+    color: #000;
+}
+
+.about-us-content-wrap p {
+    font-size: 1.2rem;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+.about-number-section-text{
+    font-size: 0.875rem;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.125rem;
+}
+
+.bottom-content-wrap{
+    width: min(85%,45rem);
+}
