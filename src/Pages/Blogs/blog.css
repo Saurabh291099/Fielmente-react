@@ -1,0 +1,26 @@
+.blogs h1{
+    font-family: "Lexend Deca",sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: #0f110f;
+}
+
+.navigation p a{
+    color: #000000;
+    font-size: .913rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+.navigation  .gt{
+    font-size: .7rem;
+}
+
+.card-body a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-body{
+    height: 5rem;
+}
