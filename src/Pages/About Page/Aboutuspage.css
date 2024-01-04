@@ -7,8 +7,10 @@
     line-height: 5.15625rem;
 }
 
+
+
 .about-us-banner-section p {
-    color: #000;
+    color: #1a1919;
     font-family: Lexend Deca;
     font-size: 1.125rem;
     font-style: normal;
@@ -19,7 +21,7 @@
 
 .buttons-link a {
     background-color: #0F110F;
-    color:  #FFF;
+    color: #FFF;
     text-transform: capitalize;
     text-align: center;
     font-size: 1rem;
@@ -29,35 +31,90 @@
     letter-spacing: -0.011rem;
 }
 
+@media (width<780px) {
+    .about-us-banner-heading{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+    .about-us-banner-section p{
+        line-height: 1.3rem;
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: -0.01rem;
+    }
+}
 
 /* ********************************** */
 /* --------about-us-section-1-------- */
 /* ********************************** */
 
 
-.about-us-content-wrap h2{
+.about-us-content-wrap h2 {
     font-size: 2.25rem;
     font-weight: 600;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 3.063rem;
     color: #000;
 }
 
 .about-us-content-wrap p {
     font-size: 1.2rem;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     color: #000000;
+    text-align: justify;
 }
 
-.about-number-section-text{
+.about-number-section-text {
     font-size: 0.875rem;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     color: #666666;
     line-height: 1.125rem;
 }
 
-.bottom-content-wrap{
-    width: min(85%,45rem);
+.bottom-content-wrap {
+    width: min(100%, 69.25rem);
+}
+
+.bottom-content-wrap h2 {
+    color: #1D1D1D;
+    font-family: Poppins;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.bottom-content-wrap p {
+    color: #5F5E5E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.23rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+@media (width<780px) {
+    .about-us-content-wrap h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+    .about-us-content-wrap p{
+        font-size: 1rem;
+        text-align: center;
+        letter-spacing: -0.01rem;
+    }
+
+    .bottom-content-wrap h2{
+        font-size: 2rem;
+    }
+    .bottom-content-wrap p{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
 }
