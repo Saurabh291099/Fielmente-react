@@ -20,20 +20,20 @@ function AboutUSBanner() {
   ];
   return (
     <div>
-      <section className="container about-us-banner-section py-3 mt-5">
+      <section className="container about-us-banner-section py-3">
         <div className="conatiner text-center">
-          <h1 className="about-us-banner-heading text-uppercase">
+          <h1 className="about-us-banner-heading text-uppercase mt-1 mt-lg-5">
             Hospitality marketing agency in India
           </h1>
         </div>
-        <div className="container mt-5 py-4 px-3">
+        <div className="container mt-lg-5 py-lg-4 px-lg-3">
           <div className="row">
             <div className="col-lg-5 d-flex align-items-center justify-content-center">
               <div>
                 <img src={Sachin} alt="Sachin" />
               </div>
             </div>
-            <div className="col-lg-7 p-2">
+            <div className="col-lg-7 p-2 mt-2 mt-lg-0">
               <div>
                 <p>
                   Welcome to Fielmente, your trusted hospitality marketing
@@ -52,8 +52,7 @@ function AboutUSBanner() {
                   results-driven, creative marketing.
                 </p>
               </div>
-              <br />
-              <div className="buttons-link d-flex align-items-center justify-content-start gap-3 p-2">
+              <div className="buttons-link d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center justify-content-lg-start gap-3 p-2">
                 {data.map((item, i) => (
                   <div
                     className="d-flex align-items-center justify-content-start "

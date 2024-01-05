@@ -49,8 +49,8 @@ function Section1() {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <div className="img-div">
-                    <img src={Img1} className="img-fluid rounded-3" alt="" />
+                  <div className="img-div"style={{height:"26rem"}}>
+                    <img src={Img1} className="img-fluid h-100 rounded-3" alt="" />
                   </div>
                 </div>
               </div>
