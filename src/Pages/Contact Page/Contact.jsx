@@ -37,11 +37,11 @@ const Contact = () => {
 
 
                         <div className="contact-form-div">
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-6 contform-img-div">
+                            <div className="row">
+                                <div className="col-12 col-md-6 col-lg-6 contform-img-div">
                                     <img src={formImg} alt="form image" />
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-6 contact-page-form">
+                                <div className="col-12 col-md-6 col-lg-6 contact-page-form">
 
 
                                     <Form noValidate validated={validated} onSubmit={handleSubmit}>
@@ -100,8 +100,8 @@ const Contact = () => {
                             <p>In order to make sure your website is user friendly and optimized for Google’s algorithm, our on-site optimization experts clean up the code and copy.
                             </p>
 
-                            <div class="row contact-accr-div">
-                                <div class="col-12 col-md-6 col-lg-6">
+                            <div className="row contact-accr-div">
+                                <div className="col-12 col-md-6 col-lg-6">
                                     <Accordion>
                                         <Accordion.Item eventKey="0">
                                             <Accordion.Header>What is digital marketing?</Accordion.Header>
@@ -130,7 +130,7 @@ const Contact = () => {
                                         </Accordion.Item>
                                     </Accordion>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-6">
+                                <div className="col-12 col-md-6 col-lg-6">
                                     <Accordion>
                                         <Accordion.Item eventKey="4">
                                             <Accordion.Header>What do you need to start your marketing?</Accordion.Header>

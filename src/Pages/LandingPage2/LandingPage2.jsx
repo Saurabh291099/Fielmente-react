@@ -258,7 +258,7 @@ const LandingPage2 = (props) => {
                     <img src={logo} alt="Fielmente Logo" />
                     <div className='nav-phone'>
                         <span>Dial Now:</span>
-                        <Link className='call'><i class="fa-solid fa-phone"></i>
+                        <Link className='call'><i className="fa-solid fa-phone"></i>
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                                 <path d="M11.0225 1.6429C12.624 1.81165 14.1199 2.52195 15.2629 3.65635C16.4059 4.79075 17.1274 6.28129 17.3082 7.88147M11.0225 4.78576C11.7953 4.93813 12.5044 5.31928 13.0578 5.87971C13.6113 6.44015 13.9835 7.154 14.1261 7.92861M17.269 13.3658V15.7229C17.2698 15.9417 17.225 16.1583 17.1374 16.3588C17.0497 16.5593 16.9211 16.7393 16.7599 16.8872C16.5986 17.0352 16.4083 17.1478 16.201 17.2179C15.9937 17.288 15.774 17.314 15.5561 17.2943C13.1383 17.0316 10.8159 16.2054 8.77538 14.8822C6.87696 13.6758 5.26743 12.0663 4.0611 10.1679C2.73322 8.11813 1.90686 5.78439 1.64896 3.35576C1.62932 3.13848 1.65514 2.9195 1.72478 2.71275C1.79441 2.506 1.90633 2.31601 2.05341 2.15489C2.2005 1.99376 2.37952 1.86503 2.57908 1.77688C2.77864 1.68873 2.99437 1.6431 3.21253 1.6429H5.56967C5.95098 1.63915 6.32065 1.77417 6.60977 2.02282C6.89889 2.27146 7.08773 2.61675 7.1411 2.99433C7.24059 3.74867 7.42509 4.48933 7.6911 5.20218C7.79681 5.48341 7.81969 5.78905 7.75702 6.08288C7.69436 6.37671 7.54878 6.64641 7.33753 6.86004L6.33967 7.8579C7.45818 9.82497 9.08688 11.4537 11.054 12.5722L12.0518 11.5743C12.2654 11.3631 12.5351 11.2175 12.829 11.1548C13.1228 11.0922 13.4284 11.115 13.7097 11.2208C14.4225 11.4868 15.1632 11.6713 15.9175 11.7708C16.2992 11.8246 16.6478 12.0168 16.8969 12.3109C17.1461 12.605 17.2785 12.9804 17.269 13.3658Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg> <span>+919501868775</span></Link>
@@ -267,16 +267,16 @@ const LandingPage2 = (props) => {
             </nav>
 
             <section className="contact-form-divland">
-                <div class="container">
-                    <div class="row">
-                        <div class="col landing-contact-left">
+                <div className="container">
+                    <div className="row">
+                        <div className="col landing-contact-left">
                             <h2><span style={{ color: '#625ACA' }}>Hospitality Marketing</span> <br />Agency Based in Gurgaon</h2>
                             <p>Are you looking with a well-rooted Hotel Advertisement Company that stays alongside you with targeted, site specific programs to boost your marketing strategies?</p>
                             <div>
                                 <img src={landingformimg} alt="" />
                             </div>
                         </div>
-                        <div class="col landing-contact-form">
+                        <div className="col landing-contact-form">
                             <h3>Connect with our Marketing Expert</h3>
 
                             <Form noValidate validated={validated} onSubmit={handleSubmit}>
@@ -349,12 +349,12 @@ const LandingPage2 = (props) => {
             </section>
 
             <section className='serving-div'>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-6 col-sm-12">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 col-lg-6 col-sm-12">
                             <img src={Rectangle} alt="" />
                         </div>
-                        <div class="col-md-12 col-lg-6 col-sm-12 landing-about">
+                        <div className="col-md-12 col-lg-6 col-sm-12 landing-about">
                             <h6>About Company</h6>
                             <svg xmlns="http://www.w3.org/2000/svg" width="348" height="2" viewBox="0 0 348 2" fill="none">
                                 <path d="M0 1.28174H348" stroke="url(#paint0_linear_1014_1917)" />
@@ -397,12 +397,12 @@ const LandingPage2 = (props) => {
                 </div>
             </section>
             <section className='serving-div'>
-                <div class="container">
-                    <div class="row">
-                        <div class="col offer-img-div">
+                <div className="container">
+                    <div className="row">
+                        <div className="col offer-img-div">
                             <img src={image7} alt="" />
                         </div>
-                        <div class="col landing-about">
+                        <div className="col landing-about">
                             <h6>ouR OFFERINGS</h6>
                             <svg xmlns="http://www.w3.org/2000/svg" width="348" height="2" viewBox="0 0 348 2" fill="none">
                                 <path d="M0 1.28174H348" stroke="url(#paint0_linear_1014_1917)" />

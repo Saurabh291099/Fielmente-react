@@ -112,7 +112,7 @@ function Blogs() {
                       style={{ height: "13.979rem",borderRadius:"1rem 1rem 0 0" }}
                     />
                   </Link>
-                  <div className="card-body" >
+                  <div className="card-body custom-height" >
                     <Link to="">
                       {" "}
                       <h5 className="card-title text-center fs-5">
