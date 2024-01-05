@@ -10,6 +10,10 @@ import Home from "./Pages/Home Page/Home";
 import Contact from "./Pages/Contact Page/Contact";
 import LandingPage2 from "./Pages/LandingPage2/LandingPage2";
 import Blogs from "./Pages/Blogs/Blogs";
+import SeoPage from "./Pages/SEO Page/SeoPage";
+import SocialMedia from "./Pages/Social Media/SocialMedia";
+import PaidAds from "./Pages/Paid Ads Page/PaidAds";
+import WebDevPage from "./Pages/WebDev Service/WebDevPage";
 function App() {
   return (
     <>
@@ -35,18 +39,18 @@ function App() {
           element={<Blogs />}
         />
         {/*Services*/}
-        <Route path="/services/website-development" exact element={<Blogs />} />
+        <Route path="/services/website-development" exact element={<WebDevPage />} />
         <Route
           path="/services/social-media-marketing"
           exact
-          element={<Blogs />}
+          element={<SocialMedia />}
         />
         <Route
           path="/services/serach-engine-optimization"
           exact
-          element={<Blogs />}
+          element={<SeoPage />}
         />
-        <Route path="/services/paid-ad-campaigns" exact element={<Blogs />} />
+        <Route path="/services/paid-ad-campaigns" exact element={<PaidAds />} />
         <Route path="/blog-page" exact element={<Blogs />} />
 
         <Route path="/blog-page" exact element={<Blogs />} />
