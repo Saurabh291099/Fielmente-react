@@ -50,7 +50,7 @@ const Footer = () => {
             <footer>
 
 
-                <div class="container ">
+                <div className="container ">
                     <div className="footer-main">
                         <div className="foot-social-div">
                             <h4 className='text-center'>Find Us On</h4>
@@ -64,8 +64,8 @@ const Footer = () => {
                         <p>Get in touch to learn more about how we can drive your brand forward. As a full-service Marketing Agency, we know how to help you and your business grow and flourish. All you’ve got to do is contact us!</p>
                         <div className="footer-inner">
 
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-6">
+                            <div className="row">
+                                <div className="col-12 col-md-6 col-lg-6">
                                     <div className="foot-left">
 
                                         <div className="foot-logo-div">
@@ -81,7 +81,7 @@ const Footer = () => {
                                         <p>Fielmente is an advisory, consultation and marketing firm dedicated to F&B and the hospitality industry.</p>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-6 ryt-foot-div">
+                                <div className="col-12 col-md-6 col-lg-6 ryt-foot-div">
                                     <p className='foot-heading'>Let’s Stay Connected</p>
                                     <p>Enter your email to unlock 5% OFF on all our services.</p>
                                     <div className="foot-email-input">
@@ -90,8 +90,8 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mobile-row">
-                                <div class="col-12 col-md-6 col-lg-6 ">
+                            <div className="row mobile-row">
+                                <div className="col-12 col-md-6 col-lg-6 ">
                                     <div className="foot-compRyts">
                                         <p className='foot-loc-text'>© 2023 Fielmente Hospitality Marketing Agency</p>
                                         <div className='foot-compRyts-inr'>
@@ -101,7 +101,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-6 ryt-foot-div">
+                                <div className="col-12 col-md-6 col-lg-6 ryt-foot-div">
                                     <div className="foot-ryt-location">
                                         <div className="foot-ryt-location-inr">
                                             <p className='foot-heading'>To Know More</p>
