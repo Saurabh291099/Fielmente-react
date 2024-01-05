@@ -13,9 +13,9 @@ import Section5 from "./Section5";
 const WebDevPage = () => {
   const style = {
     backgroundImage: `url(${BgImage})`,
-    // backgroundColor : "black"
     backgroundSize: "cover",
-    // backgroundReap
+    backgroundRepeat: "no-repeat",
+    width:"100%",
   };
 
   const numberColClass = "col-lg-3 col-md-3 col-6";

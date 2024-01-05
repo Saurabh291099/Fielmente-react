@@ -22,7 +22,7 @@ function WebCard({
               </div>
               <div className={cardBodyclass}>
                 <h5 className="card-title">{item.title}</h5>
-                <p className="card-text">{item.text}</p>
+                <p className="cardtext">{item.text}</p>
                 <BlueLinkButton url={item.link} text={item.linkText} />
               </div>
             </div>

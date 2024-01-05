@@ -1,5 +1,5 @@
 import React from "react";
-
+import WhiteLinkButton from "../../Component/WhiteLinkButton";
 import WebCard from "../../Component/WebCard";
 import Img1 from "../../Assests/industries-we-serve/asset-8.png";
 import Img2 from "../../Assests/industries-we-serve/asset-9.png";
@@ -8,10 +8,9 @@ import Img4 from "../../Assests/industries-we-serve/asset-11.png";
 import Img5 from "../../Assests/industries-we-serve/asset-12.png";
 
 function Section4() {
-  const heading = "Explore our Hospitality Digital Marketing Services";
+  const heading = "Join Our Circle of Thriving Brands";
   const text =
-    "Embark on a journey of digital success with our comprehensive hospitality marketing agency. Explore our tailored digital marketing services and unlock the full potential of your brand.";
-
+    "Don’t just take our word for it. Discover the stories of businesses like yours that have achieved remarkable success with Fielmente’s SEO services. Read our testimonials and see how we’ve transformed brands into online powerhouses in our Hospitality SEO Agency.";
   const cardData = [
     {
       imgUrl: Img1,
@@ -56,13 +55,20 @@ function Section4() {
   ];
   return (
     <section className="web-dev-secton-4 py-lg-5 py-3">
-      <div className="container web-dev-secton-4-content-wrap p-lg-2 p-1">
+      <div className="container web-dev-secton-4-content-wrap py-lg-4 p-1">
         <h2>{heading}</h2>
-        <div className=" m-auto">
+        <div className=" m-auto" style={{ width: "min(100%,60rem)" }}>
           <p className="text-center m-0">{text}</p>
         </div>
+        <div className="text-center m-auto mt-2">
+          <WhiteLinkButton url="" text="Get Started" />
+        </div>
       </div>
-
+      <div className="container my-lg-4 web-dev-secton-4-content-wrap py-lg-4 p-1">
+        <h2>
+          Amplify Your Impact with Our Comprehensive Digital Marketing Solutions
+        </h2>
+      </div>
       <div className="container">
         <div className="m-auto" style={{ width: "min(100%,68rem)" }}>
           <WebCard

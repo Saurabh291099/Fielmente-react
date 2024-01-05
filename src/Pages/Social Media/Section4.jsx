@@ -8,10 +8,9 @@ import Img4 from "../../Assests/industries-we-serve/asset-11.png";
 import Img5 from "../../Assests/industries-we-serve/asset-12.png";
 
 function Section4() {
-  const heading = "Explore our Hospitality Digital Marketing Services";
+  const heading = "Join Our Circle of Thriving Brands";
   const text =
-    "Embark on a journey of digital success with our comprehensive hospitality marketing agency. Explore our tailored digital marketing services and unlock the full potential of your brand.";
-
+    "Enjoy the full potential of your hospitality brand with our comprehensive digital marketing services, including expert Social Media Management. As your trusted hospitality social media marketing agency and consultant, explore our offerings to enhance your online presence and attract a steady influx of customers.";
   const cardData = [
     {
       imgUrl: Img1,
