@@ -35,12 +35,12 @@ function Section3() {
   ];
   return (
     <>
-      <div className="container web-dev-section-3 my-4 p-1 ">
-        <div className="">
-          <h2 className="text-white">{heading}</h2>
+      <div className="container web-dev-section-3 my-lg-4 my-md-2 my-1 p-1 ">
+        <div className="text-center">
+          <h2 className="text-white h2-lg ff-p c-fw-6">{heading}</h2>
         </div>
         <div className="container text-center p-0">
-          <p className="text-white">{peraText}</p>
+          <p className="text-white p-text-lg ff-p c-fw-4">{peraText}</p>
         </div>
       </div>
       <div className="container">

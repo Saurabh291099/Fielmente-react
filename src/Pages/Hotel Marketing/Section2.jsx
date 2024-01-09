@@ -8,7 +8,7 @@ function Section2() {
   const containerClass = "";
   const rowClass = "";
   const colClass1 = "col-lg-7 col-md-7 col-12 d-flex align-items-center";
-  const colClass2 = "col-lg-5 col-md-5 col-12";
+  const colClass2 = "col-lg-5 col-md-5 col-12 d-flex align-items-center justify-content-center";
 
 
   const accordionItems = [
@@ -85,7 +85,7 @@ consumers abandon websites that perform poorly.</p>`,
   const colLeftData = (
     <div className="d-flex flex-column">
     <div>
-      <p>Take your Restaurant to new heights! Partner with India’s top hospitality consultants and premier hospitality digital marketing agency. Elevate your brand presence and conquer new markets today!</p>
+      <p className="p-text-lg ff-p c-fw-4">Take your Restaurant to new heights! Partner with India’s top hospitality consultants and premier hospitality digital marketing agency. Elevate your brand presence and conquer new markets today!</p>
     </div>
       <Accordion
       accordionContainerClass="accordionContainerClass w-100"
@@ -108,10 +108,10 @@ consumers abandon websites that perform poorly.</p>`,
   );
 
   return (
-    <div className="web-dev-section-1 my-4">
+    <div className="web-dev-section-1 my-lg-5 my-md-3 my-1">
       <div className="container">
-        <div class="container">
-          <h2>Why Your Restaurant need to Go Online?</h2>
+        <div class="container text-center">
+          <h2 className="h2-lg ff-p c-fw-6 text-clr-gray5">Why Your Restaurant need to Go Online?</h2>
         </div>
       </div>
       <TwoColumn

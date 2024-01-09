@@ -4,10 +4,10 @@ import Img3 from "../../Assests/pad-ads/odessa-hotel-sea-port-ukraine 1.png";
 import WhiteLinkButton from "../../Component/WhiteLinkButton";
 
 function Section1() {
-  const Section = "web-dev-section-1";
+  const Section = "paid-ads-section-1";
   const containerClass = "py-lg-5 ";
   const rowClass = "";
-  const colClass1 = "col-lg-5 col-md-5 col-sm-12 d-flex align-items-center";
+  const colClass1 = "col-lg-5 col-md-5 col-sm-12 d-flex align-items-center justify-content-center";
   const colClass2 = "col-lg-7 col-md-7 col-sm-12 p-2";
   const heading = "Why Does Your Business Needs Google Ads?";
   const ptext =
@@ -33,8 +33,8 @@ function Section1() {
   // col - data ---------
   const colLeftData = (
     <>
-      <div className="col-1-img-div">
-        <img src={Img3} alt="hotel-img" />
+      <div className="col-1-img-div" >
+        <img src={Img3} alt="hotel-img" className="img-fluid rounded-4" style={{height:"35rem"}}/>
       </div>
     </>
   );
@@ -42,25 +42,15 @@ function Section1() {
   const ColRightData = (
     <>
       <div>
-        <p className="text-center text-lg-start text-md-start text-white">{ptext}</p>
+        <p className="text-center text-lg-start text-md-start text-white p-text-lg ff-p c-fw-4">{ptext}</p>
         {data.map((item, i) => (
-          // <div className="social-media-content-wrqp">
-          //   <div className="row">
-          //     <div className="col-12">
-          //       <h3>{item.heading}</h3>
-          //     </div>
-          //     <div className="col-12">
-          //       <p>{item.text}</p>
-          //     </div>
-          //   </div>
-          // </div>
-          <div className="social-media-content-wrqp">
+          <div className="paid-ads-content-wrap">
             <div className="d-flex gap-3">
               <div className="icon pt-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  // width="24"
+                  // height="24"
                   viewBox="0 0 24 24"
                   fill="none"
                 >
@@ -71,8 +61,8 @@ function Section1() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-white">{item.heading}</h3>
-                <p className="text-white">{item.text}</p>
+                <h3 className="text-white h3-1 ff-p c-fw-4">{item.heading}</h3>
+                <p className="text-white p-text-md ff-p c-fw-4">{item.text}</p>
               </div>
             </div>
           </div>
@@ -87,7 +77,7 @@ function Section1() {
   return (
     <>
       <div className="container mt-4">
-        <h2 className="text-white text-center">{heading}</h2>
+        <h2 className="text-white text-center h2-lg ff-p c-fw-6">{heading}</h2>
       </div>
       <TwoColumn
         Section={Section}

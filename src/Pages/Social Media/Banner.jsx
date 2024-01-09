@@ -22,10 +22,10 @@ function Banner() {
   const colLeftData = (
     <>
       <div className="container px-2">
-        <h1 className="mb-4 text-white">{heading}</h1>
+        <h1 className="mb-4 text-white ff-p c-fw-6 banner-h1-lg">{heading}</h1>
       </div>
       <div className="container px-lg-2 p-1">
-        <p className="mb-4 text-white">{pText}</p>
+        <p className="mb-4 text-white ff-p c-fw-4 banner-p-lg">{pText}</p>
         <div className="text-center">
           <WhiteLinkButton url={url} text={linkText} />
         </div>

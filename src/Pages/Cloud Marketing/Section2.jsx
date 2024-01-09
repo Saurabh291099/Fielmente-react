@@ -49,13 +49,13 @@ function Section2() {
   return (
     <div className="web-dev-section-1 py-4">
       <div className="container text-center">
-        <h2>Why do Your Hotel needs Website?</h2>
+        <h2 className="h2-lg ff-p c-fw-6 text-gray5">Why do Your Hotel needs Website?</h2>
       </div>
       <div
         className="text-center m-auto"
         style={{ width: "min(100%,54.375rem)" }}
       >
-        <p>
+        <p className="ff-p c-fw-4 p-text-lg text-clr-scorpion">
           Find a team of digital marketers you can rely on. As a Hotel Marketing
           Agency every day, we build trust through communication, transparency,
           and results.
@@ -71,13 +71,14 @@ function Section2() {
                     src={item.url}
                     className="img-top img-fluid"
                     alt={item.alt}
+
                   />
                 </div>
                 <div className="card-body " style={{height:"9rem"}}>
-                  <h3 className="card-title text-capitalize text-center">
+                  <h3 className="h3-1 ff-p c-fw-4 text-clr-gray5 card-title text-capitalize text-center">
                     {item.title}
                   </h3>
-                  <p className="card-text text-center">{item.description}</p>
+                  <p className="p-text-md ff-p c-fw-4 card-text text-center">{item.description}</p>
                 </div>
               </div>
             </div>

@@ -1,107 +1,8 @@
-.web-dev-section-banner h1 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 2.75rem;
-}
-
-.web-dev-section-banner p {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.75rem;
-}
-
-.web-dev-section-banner .img-div {
-    display: flex;
-    /* width: 36.5rem; */
-    max-width: 100%;
-    height: 29.0625rem;
-    flex-shrink: 0;
-}
 
 
-.card-section-div {
-    width: min(100%, 60rem);
-    margin: auto;
-}
-
-.web-dev-section-1 h2 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 4.25rem;
-    /* 141.667% */
-}
-
-.web-dev-section-1 p {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.25rem;
-    /* 163.636% */
-}
 
 
-.web-dev-section-3 h2 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 3.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 3.5rem;
-}
-
-.web-dev-section-3 p {
-    color: #FFFAFA;
-    font-family: Poppins;
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.25rem;
-}
-
-.web-dev-secton-4-content-wrap div {
-    width: min(100%, 71.875rem);
-}
-
-
-.web-dev-secton-4-content-wrap h2 {
-    color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 3.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 4.25rem;
-}
-
-.web-dev-secton-4-content-wrap p {
-    color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.625rem;
-}
-
-.web-dev img {
-    display: block;
-    max-width: 100%;
-    /* max-height: 100%; */
-    height: auto;
-}
-
-.web-dev-secton-4 .card-body {
+.social-media-secton-4 .card-body {
     height: 13rem;
     display: flex;
     flex-direction: column;
@@ -109,17 +10,17 @@
     letter-spacing: -0.01rem;
 }
 
-.card-section-div .card-body h5 {
+/* .card-section-div .card-body h5 {
     text-transform: capitalize;
-}
+} */
 
 .card-section-div .card-body a,
-.web-dev-secton-4 .card-body a {
+.social-media-secton-4 .card-body a {
     color: #FFF;
     text-transform: capitalize;
 }
 
-.web-dev-secton-4 .card-body .cardtext {
+/* .web-dev-secton-4 .card-body .cardtext {
     color: #595959;
     text-align: center;
     font-family: Poppins;
@@ -127,9 +28,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.375rem;
-}
+} */
 
-.h3Class {
+/* .h3Class {
     color: #FFF;
     font-family: Poppins;
     font-size: 1.5rem;
@@ -139,9 +40,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
-.h3Class::after {
+/* .h3Class::after {
     content: "";
     display: inline-block;
     width: 16px;
@@ -149,17 +50,17 @@
     background: url("../../Assests/svg/Vector.svg") no-repeat center center;
     background-size: contain;
     transition: transform 0.3s ease;
-}
+} */
 
-.h3Class.active::after {
+/* .h3Class.active::after {
     transform: rotate(180deg);
-}
+} */
 
-.accordionContentClass:last-child {
+/* .accordionContentClass:last-child {
     border-bottom: 1px solid #dee2e6;
-}
+} */
 
-.contentClass,
+/* .contentClass,
 .contentClass p {
     color: #FFF;
     font-family: Poppins;
@@ -167,15 +68,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
-    /* 187.5% */
-}
+   
+} */
 
-@media (width<780px) {
+/* @media (width<780px) {
     .web-dev-section-banner h1 {
         font-size: 1.5rem;
         text-align: center;
         line-height: 1.9rem;
-        /* word-spacing: -0.1rem; */
         letter-spacing: -0.03rem;
     }
 
@@ -225,4 +125,4 @@
         font-size: 1rem;
         line-height: 1.2rem;
     }
-}
+} */

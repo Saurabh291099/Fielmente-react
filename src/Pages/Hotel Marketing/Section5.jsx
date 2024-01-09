@@ -53,13 +53,13 @@ function Section5() {
     <>
       <div className="container web-dev-section-3 my-4 p-2 ">
         <div className="container text-center">
-          <h2>{heading2}</h2>
+          <h2 className="h2-lg ff-p c-fw-6">{heading2}</h2>
         </div>
         <div
           className="container text-center  p-0"
           style={{ width: "min(100%,60rem)" }}
         >
-          <p>{peraText2}</p>
+          <p className="ff-p p-text-lg c-fw-4">{peraText2}</p>
         </div>
       </div>
       <div className="container my-4">
@@ -82,8 +82,8 @@ function Section5() {
                   className="card-body text-center h-25 "
                   
                 >
-                  <h5 className="card-title text-capitalize">{item.heading}</h5>
-                  <p className="card-text">{item.description}</p>
+                  <h5 className="card-title text-capitalize text-clr-gray5 ff-p c-fw-4 h3-1">{item.heading}</h5>
+                  <p className="card-text ff-p c-fw-4 text-clr-scorpion p-text-md">{item.description}</p>
                 </div>
               </div>
             </div>

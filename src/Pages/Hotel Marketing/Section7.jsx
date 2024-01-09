@@ -24,13 +24,13 @@ function Section7() {
   const containerClass = "";
   const rowClass = "";
   const colClass1 = "col-lg-6 col-md-6 col-12";
-  const colClass2 = "col-lg-6 col-md-6 col-12";
+  const colClass2 = "col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center";
   const colLeftData = (
     <>
       <div>
-        <h2 className="text-white">{heading}</h2>
+        <h2 className="text-white c-fw-6 ff-p h2-lg">{heading}</h2>
         {data.map((item, i) => (
-          <p className="text-white" key={i}>{item.text}</p>
+          <p className="text-white c-fw-4 ff-p p-text-lg" key={i}>{item.text}</p>
         ))}
       </div>
       <div>

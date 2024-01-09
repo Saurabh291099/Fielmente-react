@@ -55,10 +55,10 @@ function Section4() {
   ];
   return (
     <section className="web-dev-secton-4 py-lg-5 py-3">
-      <div className="container web-dev-secton-4-content-wrap p-lg-2 p-1">
-        <h2 className="text-white">{heading}</h2>
-        <div className=" m-auto">
-          <p className="text-center m-0 text-white">{text}</p>
+      <div className="container web-dev-secton-4-content-wrap p-lg-2 p-1 text-center">
+        <h2 className="text-white h2-lg ff-p c-fw-6">{heading}</h2>
+        <div className="c-container-65rem">
+          <p className="text-center m-0 text-white ff-p c-fw-4 p-text-lg">{text}</p>
         </div>
       </div>
 

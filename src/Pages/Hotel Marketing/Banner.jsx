@@ -17,10 +17,10 @@ function Banner() {
     <header>
       <div className="container web-dev-section-3 my-4 p-2 border-bottom">
         <div className="container text-center">
-          <h2 className="text-center text-capitalize">{heading}</h2>
+          <h1 className="text-center text-capitalize ff-p banner-h1-lg c-fw-6 text-clr-gray5">{heading}</h1>
         </div>
         <div className="container text-center  p-0">
-          <p>{peraText1}</p>
+          <p className="ff-p banner-p-lg c-fw-4 text-clr-gray5">{peraText1}</p>
         </div>
         <div className="text-center py-3">
           <Link
@@ -33,7 +33,7 @@ function Banner() {
           </Link>
         </div>
         <div className="container text-center  p-0">
-          <p>{peraText2}</p>
+          <p className="ff-p banner-p-lg c-fw-4 text-clr-gray5">{peraText2}</p>
         </div>
       </div>
       <div className="d-flex flex-lg-row flex-md-row flex-column justify-content-center gap-lg-5 gap-md-4 gap-0">

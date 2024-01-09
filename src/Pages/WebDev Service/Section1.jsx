@@ -5,7 +5,7 @@ import Img3 from "../../Assests/industries-we-serve/asset-5.png";
 function Section1() {
   const Section = "web-dev-section-1";
   const containerClass = "py-lg-5 ";
-  const rowClass = "";
+  const rowClass = "px-lg-5";
   const colClass1 = "col-lg-5 col-md-5 col-sm-12 d-flex align-items-center";
   const colClass2 = "col-lg-7 col-md-7 col-sm-12 p-2";
   const question = "Why is a Website Important for Your HospitalityBusiness?";
@@ -22,7 +22,7 @@ function Section1() {
   const ColRightData = (
     <>
       <div>
-        <h2 className="text-center text-lg-start text-md-start text-white">{question}</h2>
+        <h2 className="text-center text-lg-start text-md-start text-white h2-lg ff-p c-fw-6">{question}</h2>
         <p className="text-center text-lg-start text-md-start text-white">{ans}</p>
       </div>
     </>

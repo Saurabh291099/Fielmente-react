@@ -7,8 +7,8 @@ function Section1() {
   const Section = "web-dev-section-1";
   const containerClass = "py-lg-5 ";
   const rowClass = "";
-  const colClass1 = "col-lg-5 col-md-5 col-sm-12 d-flex align-items-center";
-  const colClass2 = "col-lg-7 col-md-7 col-sm-12 p-2";
+  const colClass1 = "col-lg-5 col-md-5 col-sm-12 d-flex align-items-center justify-content-center";
+  const colClass2 = "col-lg-7 col-md-7 col-sm-12 p-2 ";
   const heading = "Why is Social Media Marketing Important for Your Business?";
 
   const data = [
@@ -32,15 +32,15 @@ function Section1() {
   const ColRightData = (
     <>
       <div>
-        <h2 className="text-uppercase">our approach</h2>
+        <h2 className="text-uppercase banner-h1-md clr-green-1 ff-p c-fw-4">our approach</h2>
       </div>
       <div>
-        <h3 className="text-black text-capitalize">we're here to serve you</h3>
+        <h3 className="h2-lg ff-p c-fw-6 text-gray5 text-capitalize">we're here to serve you</h3>
       </div>
       <div>
         {data.map((item, i) => (
           <div className="social-media-content-wrap" key={i}>
-            <p>{item.text}</p>
+            <p className="ff-p c-fw-4 p-text-lg text-clr-scorpion">{item.text}</p>
           </div>
         ))}
         <div className="">

@@ -33,10 +33,10 @@ function Section3() {
     <>
       <div className="container web-dev-section-3 my-4 p-2 ">
         <div className="container text-center">
-          <h2 className="text-white">{heading}</h2>
+          <h2 className="text-white h2-lg ff-p c-fw-6">{heading}</h2>
         </div>
-        <div className="container  p-0">
-          <p className="text-white">{peraText}</p>
+        <div className="container text-center  p-0">
+          <p className="text-white p-text-lg ff-p c-fw-4" style={{wordSpacing:"-0.05rem"}}>{peraText}</p>
         </div>
       </div>
       <div className="container">

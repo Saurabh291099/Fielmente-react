@@ -8,7 +8,7 @@ function Section2() {
   const containerClass = "";
   const rowClass = "";
   const colClass1 = "col-lg-7 col-md-7 col-12";
-  const colClass2 = "col-lg-5 col-md-5 col-12";
+  const colClass2 = "col-lg-5 col-md-5 col-12 d-flex align-items-center justify-content-center";
 
   const heading = `Success Stories and Clientele; Experience the Power of Google Ads.`;
   const text =
@@ -17,10 +17,10 @@ function Section2() {
   const colLeftData = (
     <>
       <div className="container text-center text-md-start text-lg-start my-4">
-        <h2 className="text-white">{heading}</h2>
+        <h2 className="text-white h2-lg ff-p c-fw-6">{heading}</h2>
       </div>
       <div className="text-center text-lg-start text-md-start">
-        <p className="text-white">{text}</p>
+        <p className="text-white ff-p c-fw-4 p-text-lg">{text}</p>
       </div>
       <div className="mt-lg-5 mt-md-3 mt-0 text-center text-lg-start text-md-start">
         <WhiteLinkButton url="#" text="get started" />
@@ -28,11 +28,12 @@ function Section2() {
     </>
   );
   const ColRightData = (
-    <div className="web-dev-section-2-img mt-3 mt-lg-0 mt-md-0">
+    <div className="Paid-ads-section-2-img mt-3 mt-lg-0 mt-md-0">
       <img
         src={Img4}
         className="img-fluid"
         alt="happy-young-receptionist-modern-hotel"
+        style={{height:"35rem"}}
       />
     </div>
   );

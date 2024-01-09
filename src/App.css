@@ -1,3 +1,210 @@
+.banner-h1-lg {
+  font-size: 2.25rem;
+  font-style: normal;
+  line-height: 2.875rem;
+}
+
+.banner-h1-md {
+  font-size: 1.25rem;
+  font-style: normal;
+  line-height: 1.25rem;
+}
+
+.banner-h2-lg {
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 1.75rem;
+}
+
+.banner-p-lg {
+  font-size: 1.375rem;
+  font-style: normal;
+  line-height: 1.75rem;
+}
+
+.c-container-60rem {
+  width: min(100%, 60rem);
+  margin: auto;
+}
+
+.c-container-65rem {
+  width: min(100%, 65rem);
+  margin: auto;
+}
+
+.c-container-70rem {
+  width: min(100%, 70rem);
+  margin: auto;
+}
+
+.h2-lg {
+  font-size: 3rem;
+  font-style: normal;
+  line-height: 4.25rem;
+}
+
+.h3-1 {
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 2.25rem;
+}
+
+.p-text-lg {
+  font-size: 1.375rem;
+  font-style: normal;
+  line-height: 1.75rem;
+}
+
+.p-text-md {
+  font-size: 1rem;
+  font-style: normal;
+}
+
+
+.fs-sm {
+  font-size: 1rem;
+}
+
+/* --------------- */
+/* -----color----- */
+/* --------------- */
+
+.text-clr-gray5 {
+  color: #0D0D0D;
+}
+
+.text-clr-scorpion {
+  color: #5F5E5E;
+}
+
+.c-text-white {
+  color: #FFF;
+}
+
+.c-light-white {
+  color: #FFFAFA;
+}
+
+.clr-green-1 {
+  color: #39BCA5;
+}
+
+/* --------------- */
+/* -----color----- */
+/* --------------- */
+
+/* --------------------- */
+/* -----font-family----- */
+/* --------------------- */
+
+.ff-p {
+  font-family: Poppins;
+}
+
+/* --------------------- */
+/* -----font-family----- */
+/* --------------------- */
+
+/* --------------------- */
+/* -----font-weight----- */
+/* --------------------- */
+.c-fw-1 {
+  font-weight: 100;
+}
+
+.c-fw-2 {
+  font-weight: 200;
+}
+
+.c-fw-3 {
+  font-weight: 300;
+}
+
+.c-fw-4 {
+  font-weight: 400;
+}
+
+.c-fw-5 {
+  font-weight: 500;
+}
+
+.c-fw-6 {
+  font-weight: 600;
+}
+
+.c-fw-7 {
+  font-weight: 700;
+}
+
+.c-fw-8 {
+  font-weight: 800;
+}
+
+.c-fw-9 {
+  font-weight: 900;
+}
+
+/* --------------------- */
+/* -----font-weight----- */
+/* --------------------- */
+
+@media (width<1200px) {
+  .banner-h1-lg {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .banner-p-lg {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .h2-lg {
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 3rem;
+  }
+
+  .p-text-lg {
+    font-size: 1.375rem;
+    font-style: normal;
+    line-height: 1.75rem;
+  }
+}
+
+@media (width<770px) {
+  .banner-h1-lg {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.001rem;
+  }
+
+  .banner-p-lg {
+    font-size: .9rem;
+    line-height: 1.2rem;
+  }
+
+  .h2-lg {
+    font-size: 1.9rem;
+    font-style: normal;
+    line-height: 2.3rem;
+  }
+
+  .p-text-lg {
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 1.5rem;
+  }
+}
+
+@media (width<576px) {}
+
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .white-link-button {
   display: inline-flex;
   padding: 0.625rem 6.25rem;
@@ -16,8 +223,8 @@
   text-transform: capitalize;
 }
 
-.white-link-button:hover{
-  box-shadow: 0 20px 30px 0 rgba(172,172,172,.65);
+.white-link-button:hover {
+  box-shadow: 0 20px 30px 0 rgba(172, 172, 172, .65);
   color: #1C1C1C;
 }
 

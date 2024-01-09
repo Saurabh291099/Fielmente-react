@@ -2,7 +2,6 @@ import React from "react";
 
 import TwoColumn from "../../Component/TwoColumn";
 import Img7 from "../../Assests/service/asset 9.png";
-import WhiteLinkButton from "../../Component/WhiteLinkButton";
 import BlueLinkButton from "../../Component/BlueLinkButton";
 
 function Section4() {
@@ -14,21 +13,26 @@ function Section4() {
   const Section = "web-dev-section-3 py-lg-4";
   const containerClass = "my-4";
   const rowClass = "px-lg-5";
-  const colClass1 = "col-lg-5 col-md-5 col-12 d-flex align-items-center";
+  const colClass1 = "col-lg-5 col-md-5 col-12 d-flex align-items-center justify-content-center";
   const colClass2 = "col-lg-7 col-md-7 col-12 p-lg-4 p-2";
   const colLeftData = (
-    <div className="web-dev-section-3-img-div " style={{ height: "auto" }}>
-      <img src={Img7} className="img-fluid " alt="avatar" />
+    <div className="web-dev-section-3-img-div " >
+      <img src={Img7} className="img-fluid " alt="avatar" style={{ height: "35rem" }}/>
     </div>
   );
   const ColRightData = (
     <div>
-      <h2>{heading}</h2>
+      <h2 className="h2-lg ff-p c-fw-6 text-gray5">{heading}</h2>
 
-      <p>{description1}</p>
-      <p className="mt-lg-5 mt-2">{description2}</p>
+      <p className="c-fw-4 ff-p p-text-lg">{description1}</p>
+      <p className="mt-lg-5 c-fw-4 ff-p p-text-lg mt-2">{description2}</p>
       <div className="text-center">
-        <WhiteLinkButton url="#" text="Connect with Our Experts" />
+      <BlueLinkButton
+          className="px-5 text-capitalize rounded-5"
+          to="#"
+          text="Connect with Our Experts"
+        />
+        
       </div>
     </div>
   );

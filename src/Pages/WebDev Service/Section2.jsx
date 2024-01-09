@@ -88,7 +88,7 @@ consumers abandon websites that perform poorly.</p>`,
       accordionContainerClass="accordionContainerClass w-100"
       accordionContentClass="accordionContentClass border-top"
       headingDivClass="accordionContentClass p-2"
-      h3Class="h3Class text-white"
+      h3Class="web-dev-h3Class text-white"
       contentClass="contentClass text-white"
       items={accordionItems}
     />
@@ -102,7 +102,7 @@ consumers abandon websites that perform poorly.</p>`,
   return (
     <div className="web-dev-section-1">
       <div className="container text-center my-4">
-        <h2 className="text-white">{heading}</h2>
+        <h2 className="text-white h2-lg ff-p c-fw-6">{heading}</h2>
       </div>
       <TwoColumn
         Section={Section}

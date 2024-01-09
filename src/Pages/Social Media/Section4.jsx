@@ -54,16 +54,16 @@ function Section4() {
     },
   ];
   return (
-    <section className="web-dev-secton-4 py-lg-5 py-3">
-      <div className="container web-dev-secton-4-content-wrap p-lg-2 p-1">
-        <h2 className="text-white">{heading}</h2>
-        <div className=" m-auto">
-          <p className="text-center m-0 text-white">{text}</p>
+    <section className="social-media-secton-4 py-lg-5 py-3">
+      <div className="container social-media-secton-4-content-wrap p-lg-2 p-1 text-center">
+        <h2 className="text-white h2-lg ff-p c-fw-6">{heading}</h2>
+        <div className="c-container-70rem">
+          <p className="text-center m-0 text-white p-text-lg ff-p c-fw-4">{text}</p>
         </div>
       </div>
 
       <div className="container">
-        <div className="m-auto" style={{ width: "min(100%,68rem)" }}>
+        <div className="c-container-65rem">
           <WebCard
             cardData={cardData}
             rowClass="row justify-content-center"

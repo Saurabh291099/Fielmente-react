@@ -15,30 +15,30 @@ function Banner() {
   const container = "web-dev-section-banner";
   const rowClass = "";
   const colClass1 = "col-lg-6 col-md-6 col-12 p-lg-2 p-1";
-  const colClass2 = "col-lg-6 col-md-6  col-12 p-2";
+  const colClass2 = "col-lg-6 col-md-6  col-12 p-2 d-flex align-items-center justify-content-center";
 
   // ---------------col-datat------------- //
   const colLeftData = (
     <>
       <div className="container px-2">
-        <h1 className="mb-4">{heading2}</h1>
+        <h1 className="mb-4 banner-h1-lg ff-p c-fw-6 text-clr-gray5">{heading2}</h1>
       </div>
       <div className="container px-lg-2 p-1">
-        <p className="mb-4">{pText}</p>
+        <p className="mb-4 p-text-lg ff-p c-fw-4 text-clr-scorpion">{pText}</p>
       </div>
     </>
   );
 
   const ColRightData = (
     <div className="img-div">
-      <img src={imgUrl} className="d-block w-100 rounded-4" alt="banner-img" />
+      <img src={imgUrl} className="img-fluid rounded-4" alt="banner-img" />
     </div>
   );
 
   return (
     <header className="pt-5">
       <div className="container text-center">
-        <h2>{heading1}</h2>
+        <h2 className=" banner-h1-md ff-p c-fw-4 clr-green-1">{heading1}</h2>
       </div>
       <TwoColumn
         Section={Section}

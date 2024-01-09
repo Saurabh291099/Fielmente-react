@@ -22,10 +22,10 @@ function Banner() {
   const colLeftData = (
     <>
       <div className="container px-2">
-        <h1 className="mb-4 text-white">{heading}</h1>
+        <h1 className="mb-4 text-white banner-h1-lg ff-p c-fw-6">{heading}</h1>
       </div>
       <div className="container px-lg-2 p-1">
-        <p className="mb-4 text-white">{pText}</p>
+        <p className="mb-4 text-white banner-p-lg ff-p c-fw-4">{pText}</p>
         <div className="text-center">
           <WhiteLinkButton url={url} text={linkText} />
         </div>
@@ -35,7 +35,7 @@ function Banner() {
 
   const ColRightData = (
     <div className="img-div">
-      <img src={imgUrl} className="d-block w-100 rounded-4" alt="banner-img" />
+      <img src={imgUrl} className="img-fluid rounded-4" alt="banner-img" />
     </div>
   );
 

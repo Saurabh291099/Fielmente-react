@@ -18,7 +18,7 @@ function Section1() {
   const colLeftData = (
     <>
       <div className="col-1-img-div">
-        <img src={Img3} alt="hotel-img" />
+        <img src={Img3} alt="hotel-img" className="img-fluid"/>
       </div>
     </>
   );
@@ -26,8 +26,8 @@ function Section1() {
   const ColRightData = (
     <>
       <div>
-        <h2 className="section-1-h2">Industries We Serve</h2> 
-        <p className="section-1-p">Fielmente is a place, where we excel in revolutionizing your business! As the finest hospitality marketing agency in India, we exclusively cater to hotels, cloud kitchens, and restaurants.
+        <h2 className="h2-lg ff-p c-fw-6 text-clr-gray5">Industries We Serve</h2> 
+        <p className="p-text-lg ff-p c-fw-4 text-clr-scorpion">Fielmente is a place, where we excel in revolutionizing your business! As the finest hospitality marketing agency in India, we exclusively cater to hotels, cloud kitchens, and restaurants.
 Elevate your brand’s presence, thrive in competition, and allure countless guests with our exceptional hospitality marketing services.Let us be your key to success in the dynamic world of hospitality!</p>
       </div>
     </>
@@ -35,8 +35,8 @@ Elevate your brand’s presence, thrive in competition, and allure countless gue
 
   return (
     <>
-      <div className="container mt-4">
-        <h2 className="text-white text-center">{heading}</h2>
+      <div className="container mt-lg-4">
+        <h2 className="text-clr-gray5 ff-p c-fw-6 h2-lg text-center">{heading}</h2>
       </div>
       <TwoColumn
         Section={Section}

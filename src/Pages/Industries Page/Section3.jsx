@@ -59,13 +59,13 @@ function Section3() {
     <>
       <div className="container web-dev-section-3 my-4 p-2 ">
         <div className="container text-center">
-          <h2>{heading1}</h2>
+          <h2 className="h2-lg ff-p c-fw-6 text-clr-gray5">{heading1}</h2>
         </div>
         <div
           className="container text-center  p-0"
           style={{ width: "min(100%,60rem)" }}
         >
-          <p>{peraText1}</p>
+          <p className="p-text-lg ff-p c-fw-4 text-clr-scorpion">{peraText1}</p>
         </div>
         <div className="text-center py-3">
           <Link to="" className="px-4 py-2 bg-black text-white rounded m-auto">
@@ -75,13 +75,13 @@ function Section3() {
         </div>
 
         <div className="container text-center">
-          <h2>{heading2}</h2>
+          <h2 className="h2-lg ff-p c-fw-6 text-clr-gray5">{heading2}</h2>
         </div>
         <div
           className="container text-center  p-0"
           style={{ width: "min(100%,60rem)" }}
         >
-          <p>{peraText2}</p>
+          <p className="p-text-lg ff-p c-fw-4 text-clr-scorpion">{peraText2}</p>
         </div>
       </div>
       <div className="container">
@@ -89,16 +89,16 @@ function Section3() {
           {data.map((item, i) => (
             <div key={i} className="col-lg-4 col-md-6 col-12 p-2">
               <div className="card border-0">
-                <div className="" style={{height:"25.4rem"}}>
+                <div className="d-flex justify-content-center align-items-center " style={{height:"25.4rem"}}>
                   <img
                     src={item.url}
-                    className="img-fluid h-100"
+                    className="img-fluid rounded-4"
                     alt={`${item.heading}-img`}
                   />
                 </div>
                 <div className="card-body text-center h-25 ">
-                  <h5 className="card-title text-capitalize">{item.heading}</h5>
-                  <p className="card-text">{item.description}</p>
+                  <h5 className="h3-1 text-clr-gray5 ff-p c-fw-4 card-title text-capitalize">{item.heading}</h5>
+                  <p className="p-text-md ff-p c-fw-4 text-clr-scorpion card-text">{item.description}</p>
                 </div>
               </div>
             </div>

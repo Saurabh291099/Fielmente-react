@@ -7,7 +7,7 @@ function Section5() {
   return (
     <div className='container my-3'>
         <div className="text-center m-auto" style={{width:"min(100%, 60rem)"}}>
-            <h2>Harness the power of social media marketing to elevate your hotel's presence.</h2>
+            <h2 className='h2-lg ff-p c-fw-6 text-gray5'>Harness the power of social media marketing to elevate your hotel's presence.</h2>
         </div>
         <div className="d-flex flex-lg-row flex-md-row flex-column align-items-center justify-content-center gap-5">
             <div className="left">

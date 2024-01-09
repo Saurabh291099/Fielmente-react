@@ -8,7 +8,7 @@ function Section2() {
   const containerClass = "";
   const rowClass = "";
   const colClass1 = "col-lg-7 col-md-7 col-12 d-flex align-items-center";
-  const colClass2 = "col-lg-5 col-md-5 col-12";
+  const colClass2 = "col-lg-5 col-md-5 col-12 d-flex align-items-center justify-content-center";
 
 
   const accordionItems = [
@@ -99,19 +99,18 @@ consumers abandon websites that perform poorly.</p>`,
       <img
         src={Img4}
         className="img-fluid"
-        alt="happy-young-receptionist-modern-hotel"
-      />
+        alt="happy-young-receptionist-modern-hotel"/>
     </div>
   );
 
   return (
     <div className="web-dev-section-1 my-4">
       <div className="container">
-        <div class="container">
-          <h2>Why do You need to Go Online?</h2>
+        <div class="container text-center">
+          <h2 className="h2-lg ff-p c-fw-6 text-clr-gray5">Why do You need to Go Online?</h2>
         </div>
         <div className="m-auto"style={{width:"min(100%,50rem)"}}>
-          <p className="section-2-p ">Unwrap your business’s true potential and reach new heights with the irresistible allure of online presence with Fielmente’s cutting-edge hospitality marketing services!</p>
+          <p className="p-text-lg ff-p c-fw-4 text-clr-scorpion">Unwrap your business’s true potential and reach new heights with the irresistible allure of online presence with Fielmente’s cutting-edge hospitality marketing services!</p>
         </div>
       </div>
       <TwoColumn

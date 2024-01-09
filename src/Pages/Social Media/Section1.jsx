@@ -4,10 +4,10 @@ import Img3 from "../../Assests/social-media/miami-usa-april-15-2021-park-centra
 import WhiteLinkButton from "../../Component/WhiteLinkButton";
 
 function Section1() {
-  const Section = "web-dev-section-1";
+  const Section = "social-media-section-1";
   const containerClass = "py-lg-5 ";
   const rowClass = "";
-  const colClass1 = "col-lg-5 col-md-5 col-sm-12 d-flex align-items-center";
+  const colClass1 = "col-lg-5 col-md-5 col-sm-12 d-flex align-items-center justify-content-center";
   const colClass2 = "col-lg-7 col-md-7 col-sm-12 p-2";
   const heading = "Why is Social Media Marketing Important for Your Business?";
   const ptext =
@@ -34,8 +34,8 @@ function Section1() {
   // col - data ---------
   const colLeftData = (
     <>
-      <div className="col-1-img-div">
-        <img src={Img3} alt="hotel-img" />
+      <div className="col-1-img-div" >
+        <img src={Img3} className="img-fluid rounded-4" alt="hotel-img" style={{height:"35rem"}}/>
       </div>
     </>
   );
@@ -43,25 +43,15 @@ function Section1() {
   const ColRightData = (
     <>
       <div>
-        <p className="text-center text-lg-start text-md-start text-white">{ptext}</p>
+        <p className="text-center text-lg-start text-md-start text-white p-text-lg ff-p c-fw-4 mb-1">{ptext}</p>
         {data.map((item, i) => (
-          // <div className="social-media-content-wrqp">
-          //   <div className="row">
-          //     <div className="col-12">
-          //       <h3>{item.heading}</h3>
-          //     </div> 
-          //     <div className="col-12">
-          //       <p>{item.text}</p>
-          //     </div>
-          //   </div>
-          // </div>
-          <div className="social-media-content-wrqp">
+          <div className="social-media-content-wrap">
             <div className="d-flex gap-3">
               <div className="icon pt-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  // width="24"
+                  // height="24"
                   viewBox="0 0 24 24"
                   fill="none"
                 >
@@ -72,13 +62,13 @@ function Section1() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-white">{item.heading}</h3>
-                <p className="text-white">{item.text}</p>
+                <h3 className="text-white h3-1 ff-p c-fw-6 mb-1">{item.heading}</h3>
+                <p className="text-white p-text-md ff-p c-fw-4 mb-1">{item.text}</p>
               </div>
             </div>
           </div>
         ))}
-        <div className="text-center">
+        <div className="text-center mt-lg-5">
           <WhiteLinkButton text="Know More" url="#" />
         </div>
       </div>
@@ -87,8 +77,8 @@ function Section1() {
 
   return (
     <>
-      <div className="container mt-4">
-        <h2 className="text-white text-center">{heading}</h2>
+      <div className="container mt-lg-4 mt-md-2 mt-1 c-container-60rem">
+        <h2 className="c-text-white text-center h2-lg c-fw-6 ff-p">{heading}</h2>
       </div>
       <TwoColumn
         Section={Section}

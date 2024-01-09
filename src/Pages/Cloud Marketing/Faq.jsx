@@ -59,7 +59,7 @@ function Faq() {
   return (
     <>
       <div className="container text-center mt-4">
-        <h2 className="text-black text-capitalize">
+        <h2 className="text-black text-capitalize ff-p c-fw-6 h2-lg text-gray5">
           Frequently Asked Questions
         </h2>
       </div>

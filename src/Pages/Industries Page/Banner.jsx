@@ -20,18 +20,18 @@ function Banner() {
   const container = "web-dev-section-banner";
   const rowClass = "";
   const colClass1 = "col-lg-6 col-md-6 col-12 p-lg-2 p-1 ";
-  const colClass2 = "col-lg-6 col-md-6  col-12 p-2";
+  const colClass2 = "col-lg-6 col-md-6  col-12 p-2 d-flex align-items-center justify-content-center";
 
   // ---------------col-datat------------- //
   const colLeftData = (
     <>
       <div className="container px-2">
-        <h2 className="text-uppercase">our hospitality marketing services</h2>
-        <h1 className="mb-4">{heading}</h1>
+        <h1 className="text-uppercase clr-green-1 ff-p c-fw-4 banner-h1-md">our hospitality marketing services</h1>
+        <h2 className="mb-2 mb-md-3 mb-lg-4 text-clr-gray5 banner-h1-lg ff-p c-fw-6">{heading}</h2>
       </div>
       <div className="container px-lg-2 p-1">
         {data.map((item, i) => (
-          <p className="mb-4" key={i}>
+          <p className="mb-2 mb-md-3 mb-lg-4 p-text-lg ff-p c-fw-4 text-clr-scorpion" key={i}>
             {item.text}
           </p>
         ))}
@@ -41,7 +41,7 @@ function Banner() {
 
   const ColRightData = (
     <div className="img-div">
-      <img src={imgUrl} className="d-block w-100 rounded-4" alt="banner-img" />
+      <img src={imgUrl} className="img-fluid rounded-4" alt="banner-img" />
     </div>
   );
 

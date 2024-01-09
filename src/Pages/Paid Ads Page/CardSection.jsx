@@ -35,7 +35,7 @@ function CardSection() {
   return (
     <div>
       {" "}
-      <div className="container py-4">
+      <div className="container py-lg-4 p-md-2 p-1">
         <div className="card-section-div border-top border-bottom">
           <WebCard
             cardData={cardData}

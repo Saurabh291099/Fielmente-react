@@ -1,22 +1,8 @@
-.web-dev-section-banner h1 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 2.75rem;
-}
 
-.web-dev-section-banner p {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.75rem;
-}
 
-.web-dev-section-banner .img-div {
+
+
+.---section-banner .img-div {
     display: flex;
     /* width: 36.5rem; */
     max-width: 100%;
@@ -30,51 +16,13 @@
     margin: auto;
 }
 
-.web-dev-section-1 h2 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 4.25rem;
-    /* 141.667% */
-}
 
-.web-dev-section-1 p {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.25rem;
-    /* 163.636% */
-}
-
-
-.web-dev-section-3 h2 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 3.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 3.5rem;
-}
-
-.web-dev-section-3 p {
-    color: #FFFAFA;
-    font-family: Poppins;
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.25rem;
-}
-
-.web-dev-secton-4-content-wrap div {
+.---secton-4-content-wrap div {
     width: min(100%, 71.875rem);
 }
 
 
-.web-dev-secton-4-content-wrap h2 {
+.---secton-4-content-wrap-h2 {
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -84,7 +32,7 @@
     line-height: 4.25rem;
 }
 
-.web-dev-secton-4-content-wrap p {
+.---secton-4-content-wrap-p {
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -94,7 +42,7 @@
     line-height: 1.625rem;
 }
 
-.web-dev img {
+.-- img {
     display: block;
     max-width: 100%;
     /* max-height: 100%; */
@@ -119,7 +67,7 @@
     text-transform: capitalize;
 }
 
-.h3Class {
+.web-dev-h3Class {
     color: #FFF;
     font-family: Poppins;
     font-size: 1.5rem;
@@ -131,7 +79,7 @@
     align-items: center;
 }
 
-.h3Class::after {
+.web-dev-h3Class::after {
     content: "";
     display: inline-block;
     width: 16px;
@@ -160,7 +108,7 @@
 }
 
 @media (width<780px) {
-    .web-dev-section-banner h1 {
+    .---section-banner h1 {
         font-size: 1.5rem;
         text-align: center;
         line-height: 1.9rem;
@@ -168,49 +116,49 @@
         letter-spacing: -0.03rem;
     }
 
-    .web-dev-section-banner p {
+    .---section-banner p {
         font-size: 1rem;
         line-height: 1.5rem;
         text-align: center;
         letter-spacing: -0.011rem;
     }
 
-    .web-dev-section-1 h2 {
+    .---section-1 h2 {
         font-size: 1.8rem;
         line-height: 2rem;
     }
 
-    .web-dev-section-1 p {
+    .---section-1 p {
         font-size: 1rem;
         line-height: 1.5rem;
         word-spacing: -0.09rem;
     }
 
-    .web-dev-section-3 h2 {
+    .---section-3 h2 {
         font-size: 2.3rem;
         line-height: 2.8rem;
     }
 
-    .web-dev-section-3 p {
+    .---section-3 p {
         font-size: 1rem;
         line-height: 1.7rem;
     }
 
-    .web-dev-secton-4-content-wrap h2 {
+    .---secton-4-content-wrap h2 {
         font-size: 1.8rem;
         line-height: 2rem;
     }
 
-    .web-dev-secton-4-content-wrap p {
+    .---secton-4-content-wrap p {
         font-size: 1rem;
         line-height: 1.4rem;
     }
 
-    .web-dev-secton-4 .card-body {
+    .---secton-4 .card-body {
         height: 10rem;
     }
 
-    .web-dev-secton-4 .card-text {
+    .---secton-4 .card-text {
         font-size: 1rem;
         line-height: 1.2rem;
     }

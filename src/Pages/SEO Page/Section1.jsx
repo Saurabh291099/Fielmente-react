@@ -4,10 +4,10 @@ import Img3 from "../../Assests/seo/market-research-statistics-graphs-laptop-scr
 import WhiteLinkButton from "../../Component/WhiteLinkButton";
 
 function Section1() {
-  const Section = "web-dev-section-1";
-  const containerClass = "py-lg-5 ";
+  const Section = "seo-section-1";
+  const containerClass = "py-lg-4 py-2 ";
   const rowClass = "";
-  const colClass1 = "col-lg-5 col-md-5 col-sm-12 d-flex align-items-center";
+  const colClass1 = "col-lg-5 col-md-5 col-sm-12 d-flex align-items-center justify-content-center";
   const colClass2 = "col-lg-7 col-md-7 col-sm-12 p-2";
   const heading = "Why is SEO Important for Your Hospitality Business?";
   const pData = [
@@ -45,8 +45,8 @@ function Section1() {
   // col - data ---------
   const colLeftData = (
     <>
-      <div className="col-1-img-div">
-        <img src={Img3} alt="hotel-img" />
+      <div className="col-1-img-div" >
+        <img src={Img3} alt="hotel-img" className="img-fluid rounded-4" style={{height:"35rem"}}/>
       </div>
     </>
   );
@@ -56,7 +56,7 @@ function Section1() {
       <div>
         {pData.map((item, i) => (
           <div key={i} className="mb-2">
-            <p className="text-center text-lg-start text-md-start text-white">
+            <p className="text-center text-lg-start text-md-start text-white p-text-lg ff-p c-fw-4 mb-1">
               {item.text}
             </p>
           </div>
@@ -67,8 +67,8 @@ function Section1() {
               <div className="icon pt-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  // width="24"
+                  // height="24"
                   viewBox="0 0 24 24"
                   fill="none"
                 >
@@ -79,13 +79,13 @@ function Section1() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-white">{item.heading}</h3>
-                <p className="text-white">{item.text}</p>
+                <h3 className="text-white h3-1 ff-p c-fw-4 mb-1">{item.heading}</h3>
+                <p className="text-white p-text-md ff-p  c-fw-4 mb-1">{item.text}</p>
               </div>
             </div>
           </div>
         ))}
-        <div className="text-center">
+        <div className="text-center mt-lg-3 mt-2">
           <WhiteLinkButton text="Know More" url="#" />
         </div>
       </div>
@@ -94,8 +94,8 @@ function Section1() {
 
   return (
     <>
-      <div className="container mt-4">
-        <h2 className="text-white text-center">{heading}</h2>
+      <div className="container mt-lg-4 mt-md-2 mt-1">
+        <h2 className="text-white text-center h2-lg ff-p c-fw-6">{heading}</h2>
       </div>
       <TwoColumn
         Section={Section}

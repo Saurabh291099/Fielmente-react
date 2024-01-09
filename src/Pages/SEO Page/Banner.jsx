@@ -19,8 +19,8 @@ function Banner() {
   const linkText = "know more";
   const url = "#";
   const imgUrl = BannerImg;
-  const Section = "web-dev-section pt-lg-5 pt-4";
-  const container = "web-dev-section-banner";
+  const Section = "seo-section pt-lg-5 pt-4";
+  const container = "seo-section-banner";
   const rowClass = "";
   const colClass1 =
     "col-lg-6 col-md-6 col-12 p-lg-2 p-1 bg-eigengrau rounded-4";
@@ -30,12 +30,12 @@ function Banner() {
   const colLeftData = (
     <>
       <div className="container px-2">
-        <h1 className="mb-4 text-white">{heading}</h1>
+        <h1 className="mb-4 text-white banner-h1-lg ff-p c-fw-6">{heading}</h1>
       </div>
       <div className="container px-lg-2 p-1">
         {data.map((item, i) => (
           <div key={i}>
-            <p className="mb-4 text-white">{item.pText}</p>
+            <p className="mb-4 text-white banner-p-lg ff-p c-fw-4">{item.pText}</p>
           </div>
         ))}
         <div className="text-center">

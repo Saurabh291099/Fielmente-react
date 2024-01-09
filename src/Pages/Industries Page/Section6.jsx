@@ -10,10 +10,10 @@ function Section6() {
   return (
     <div className="container web-dev-section-3 my-4 p-2 ">
       <div className="container text-center">
-        <h2>{heading1}</h2>
+        <h2 className="ff-p h2-lg c-fw-6 text-clr-gray">{heading1}</h2>
       </div>
       <div className="container text-center  p-0">
-        <p>{peraText1}</p>
+        <p className="ff-p p-text-lg c-fw-4">{peraText1}</p>
       </div>
       <div className="text-center py-3">
         <Link
@@ -26,7 +26,7 @@ function Section6() {
         </Link>
       </div>
       <div className="container my-2">
-        <h2 className="text-center text-capitalize">brand we work with</h2>
+        <h2 className="text-center text-capitalize ff-p c-fw-6 h2-lg text-clr-gray5">brand we work with</h2>
       </div>
       {/* <div class="elementor-widget-container two_elementor_element">
         <div class="elementor-swiper two_elementor_element">
@@ -436,14 +436,14 @@ function Section6() {
         </div>
       </div> */}
       <div className="container my-2">
-        <h2 className="text-center text-capitalize">
+        <h2 className="text-center text-capitalize ff-p h2-lg text-gray5 c-fw-6">
           what people say about us
         </h2>
         <div
           className="row mt-lg-5 justify-content-center m-auto"
           style={{ width: "min(100%,75rem)" }}
         >
-          <div className="col-4">
+          <div className="col-lg-4 col-md-6 col-12">
             <div className="d-flex flex-column p-3 border rounded-2">
               <div className="top-content-wrap d-flex align-items-center justify-content-between">
                 <div className="img-div-rev border">
@@ -473,7 +473,7 @@ function Section6() {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-md-6 col-12">
             <div className="d-flex flex-column p-3 border rounded-2">
               <div className="top-content-wrap d-flex align-items-center justify-content-between">
                 <div className="img-div-rev border">
@@ -503,7 +503,7 @@ function Section6() {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-md-6 col-12">
             <div className="d-flex flex-column p-3 border rounded-2">
               <div className="top-content-wrap d-flex align-items-center justify-content-between">
                 <div className="img-div-rev border">

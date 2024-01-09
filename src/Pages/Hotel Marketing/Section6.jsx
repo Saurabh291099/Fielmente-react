@@ -56,10 +56,10 @@ function Section6() {
   ];
   return (
     <section className="web-dev-secton-4 py-lg-5 py-3" style={{background: "#0F110F"}}>
-      <div className="container web-dev-secton-4-content-wrap p-lg-2 p-1">
-        <h2 className="mb-3 text-white text-capitalize">{heading}</h2>
+      <div className="container web-dev-secton-4-content-wrap p-lg-2 p-1 text-center">
+        <h2 className="mb-3 text-white text-capitalize c-fw-6 ff-p h2-lg">{heading}</h2>
         <div className=" m-auto" style={{width:"min(100%,54rem)"}}>
-          <p className="text-center text-white">{text}</p>
+          <p className="text-center text-white p-text-lg ff-p c-fw-4">{text}</p>
         </div>
       </div>
 

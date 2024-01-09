@@ -7,7 +7,7 @@ function Section1() {
   const Section = "";
   const containerClass = "";
   const rowClass = "";
-  const colClass1 = "col-lg-5 col-md-5 col-12";
+  const colClass1 = "col-lg-5 col-md-5 col-12 d-flex align-items-center justify-content-center";
   const colClass2 = "col-lg-7 col-md-7 col-12 d-flex align-items-center";
 
   const heading ="Why Your Hotel need to Go Online?"
@@ -87,7 +87,7 @@ consumers abandon websites that perform poorly.</p>`,
   //   col-data-----
   const ColRightData = (
     <div className="d-flex flex-column">
-    <p>{text}</p>
+    <p className="p-text-lg ff-p c-fw-4">{text}</p>
       <Accordion
         accordionContainerClass="accordionContainerClass w-100"
         accordionContentClass="accordionContentClass border-top"
@@ -109,9 +109,9 @@ consumers abandon websites that perform poorly.</p>`,
   );
 
   return (
-    <div className="web-dev-section-1 my-5 container">
+    <div className="web-dev-section-1 my-lg-5 my-md-3 my-1 container">
       <div className="container mt-4">
-        <h2 className="text-center">{heading}</h2>
+        <h2 className="text-center h2-lg ff-p c-fw-6">{heading}</h2>
       </div>
       <TwoColumn
         Section={Section}

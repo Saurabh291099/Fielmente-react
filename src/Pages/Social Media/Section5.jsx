@@ -9,8 +9,8 @@ function Section5() {
   const heading = "Let's Ignite Your Social Media Growth Together";
   const description1 ="Are you ready to take your brand to the next level with Social Media Management? Contact us right away for a free consultation and watch your brand soar with our hospitality social media marketing experts."
   const description2 ="Partner with Fielmente’s expert team to elevate your brand and dominate the digital landscape. Embrace your potential today."
-  const Section = "web-dev-section-3 py-lg-4";
-  const containerClass = "my-4";
+  const Section = "social-media-section-3 py-lg-4";
+  const containerClass = "my-lg-4 my-md-2 my-1";
   const rowClass = "px-lg-5";
   const colClass1 = "col-lg-5 col-md-5 col-12 d-flex align-items-center";
   const colClass2 = "col-lg-7 col-md-7 col-12 p-lg-4 p-2";
@@ -21,11 +21,11 @@ function Section5() {
   );
   const ColRightData = (
     <div>
-      <h2 className="text-white">{heading}</h2>
+      <h2 className="text-white h2-lg ff-p c-fw-6">{heading}</h2>
 
-      <p className="text-white">{description1}</p>
+      <p className="text-white p-text-lg ff-p c-fw-4">{description1}</p>
       <img src={Img8} alt="avtar" />
-      <p className="mt-lg-5 mt-2 text-white">{description2}</p>
+      <p className="mt-lg-5 mt-2 text-white p-text-lg ff-p c-fw-4">{description2}</p>
       <div className="text-center">
         <WhiteLinkButton url="#" text="Connect with Our Experts" />
       </div>
