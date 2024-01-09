@@ -136,3 +136,50 @@
     /* 190% */
     letter-spacing: -0.011rem;
 }
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-position-x: 40rem;
+    background-size: contain;
+}
+
+@media (width<780px) {
+    .section-2-heading{
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+    .bg-img{
+        background-position-x: 20rem;
+        background-size: 30%;
+    }
+    .our-team-banner h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    .our-team-banner p {
+        line-height: 2rem;
+    }
+}
+
+@media (width<430px) {
+    .section-2-heading{
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .bg-img{
+        background-position-y: 20%;
+        background-position-x: 50%;
+        background-size: 20%;
+    }
+    .our-team-banner h2 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    
+    .our-team-banner p {
+        line-height: 1.5rem;
+        text-align: center;
+    }
+}

@@ -14,7 +14,7 @@ function Banner() {
   const colClass2 = "col-lg-6 col-md-6 col-12 p-2 d-flex align-items-center justify-content-center";
   const colLeftData = (
     <>
-      <h1 className="ot-banner-heading">{heading}</h1>
+      <h1 className="ot-banner-heading text-lg-start text-md-start text-center">{heading}</h1>
       <h2>{secondHeading}</h2>
       <p className="mb-1">{description}</p>
     </>
@@ -28,7 +28,7 @@ function Banner() {
   // const styleColRight=""
 
   return (
-    <header className="py-5">
+    <header className="py-lg-5 py-md-3 py-1">
       <TwoColumn
         Section={Section}
         containerClass={containerClass}
