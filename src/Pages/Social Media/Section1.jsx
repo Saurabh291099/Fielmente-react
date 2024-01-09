@@ -43,7 +43,7 @@ function Section1() {
   const ColRightData = (
     <>
       <div>
-        <p className="text-center text-lg-start text-md-start">{ptext}</p>
+        <p className="text-center text-lg-start text-md-start text-white">{ptext}</p>
         {data.map((item, i) => (
           // <div className="social-media-content-wrqp">
           //   <div className="row">
@@ -73,7 +73,7 @@ function Section1() {
               </div>
               <div>
                 <h3 className="text-white">{item.heading}</h3>
-                <p>{item.text}</p>
+                <p className="text-white">{item.text}</p>
               </div>
             </div>
           </div>

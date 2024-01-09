@@ -21,11 +21,11 @@ function Section5() {
   );
   const ColRightData = (
     <div>
-      <h2>{heading}</h2>
+      <h2 className="text-white">{heading}</h2>
 
-      <p>{description1}</p>
+      <p className="text-white">{description1}</p>
       <img src={Img8} alt="avtar" />
-      <p className="mt-lg-5 mt-2">{description2}</p>
+      <p className="mt-lg-5 mt-2 text-white">{description2}</p>
       <div className="text-center">
         <WhiteLinkButton url="#" text="Connect with Our Experts" />
       </div>

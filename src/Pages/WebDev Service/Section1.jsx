@@ -22,8 +22,8 @@ function Section1() {
   const ColRightData = (
     <>
       <div>
-        <h2 className="text-center text-lg-start text-md-start">{question}</h2>
-        <p className="text-center text-lg-start text-md-start">{ans}</p>
+        <h2 className="text-center text-lg-start text-md-start text-white">{question}</h2>
+        <p className="text-center text-lg-start text-md-start text-white">{ans}</p>
       </div>
     </>
   );

@@ -21,7 +21,8 @@ const Accordion = ({
           <div
             style={{ cursor: "pointer" }}
             onClick={() => handleItemClick(index)}
-            className={`${headingDivClass} `}
+            
+            className={`${headingDivClass}  ${accordionContentClass} ${activeIndex === index ? 'open' : 'closed'}`}
           >
             <h3 className={`${h3Class} ${activeIndex === index ? 'active' : ''}`}>{item.title}</h3>
           </div>

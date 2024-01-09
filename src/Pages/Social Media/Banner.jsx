@@ -2,7 +2,6 @@ import React from "react";
 import TwoColumn from "../../Component/TwoColumn";
 import WhiteLinkButton from "../../Component/WhiteLinkButton";
 import BannerImg from "../../Assests/social-media/portrait-smiling-waitress-welcoming.png";
-import "./webDev.css";
 
 function Banner() {
   const heading =
@@ -23,10 +22,10 @@ function Banner() {
   const colLeftData = (
     <>
       <div className="container px-2">
-        <h1 className="mb-4">{heading}</h1>
+        <h1 className="mb-4 text-white">{heading}</h1>
       </div>
       <div className="container px-lg-2 p-1">
-        <p className="mb-4">{pText}</p>
+        <p className="mb-4 text-white">{pText}</p>
         <div className="text-center">
           <WhiteLinkButton url={url} text={linkText} />
         </div>

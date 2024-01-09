@@ -16,7 +16,7 @@ const Navigation = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto mid_nav">
                 <Nav.Link href="/about-page">About</Nav.Link><span>&#124;</span>
-                <NavDropdown title="Industries We Serve" id="basic-nav-dropdown">
+                <NavDropdown title="Industries We Serve" id="basic-nav-dropdown" href="/industries-we-serve">
                   <NavDropdown.Item href="/industries-we-serve/hotel-marketing">Hotel Marketing</NavDropdown.Item>
                   <NavDropdown.Item href="/industries-we-serve/restaurant-marketing">Restaurant Marketing</NavDropdown.Item>
                   <NavDropdown.Item href="/industries-we-serve/cloud-kithen-marketing">Cloud Kithen Marketing</NavDropdown.Item>
@@ -27,6 +27,7 @@ const Navigation = () => {
                   <NavDropdown.Item href="/services/serach-engine-optimization">Serach Engine Optimization(SEO)</NavDropdown.Item>
                   <NavDropdown.Item href="/services/paid-ad-campaigns">Paid Ad Campaigns</NavDropdown.Item>
                 </NavDropdown><span>&#124;</span>
+                <Nav.Link href="/our-team">Our Team</Nav.Link><span>&#124;</span>
                 <Nav.Link href="/blog-page">Blogs</Nav.Link><span>&#124;</span>
                 {/* <Nav.Link href="/landing-page2">Landing Page2</Nav.Link><span>&#124;</span> */}
                 <Nav.Link href="/contact-page">Contact Us</Nav.Link> 

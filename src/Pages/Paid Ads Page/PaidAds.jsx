@@ -1,4 +1,5 @@
 import React from "react";
+import "./paidads.css";
 import Banner from "./Banner";
 import BgImage from "../../Assests/industries-we-serve/asset-18.png";
 import NumberCompnent from "../../Component/NumberCompnent";
@@ -34,7 +35,7 @@ const PaidAds = () => {
           rowClass="justify-content-center my-lg-5 my-md-3 my-2"
           colClass={numberColClass}
           divClass="text-center"
-          span1Class="text-light"
+          span1Class="text-white"
           span2Class="text-white"
           numberData={data}
         />

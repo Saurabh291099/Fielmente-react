@@ -9,6 +9,8 @@ import Section3 from "./Section3";
 import Contact from "../../Component/Contact";
 import Section4 from "./Section4";
 import Section5 from "./Section5";
+import "./seopage.css";
+
 
 const style = {
   backgroundImage: `url(${BgImage})`,

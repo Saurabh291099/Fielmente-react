@@ -2,7 +2,6 @@ import React from "react";
 import TwoColumn from "../../Component/TwoColumn";
 import WhiteLinkButton from "../../Component/WhiteLinkButton";
 import BannerImg from "../../Assests/seo/exterior-hotel-resort-with-swimming-pool-sun-loungers 5.png";
-import "./webDev.css";
 
 function Banner() {
   const heading =
@@ -31,12 +30,12 @@ function Banner() {
   const colLeftData = (
     <>
       <div className="container px-2">
-        <h1 className="mb-4">{heading}</h1>
+        <h1 className="mb-4 text-white">{heading}</h1>
       </div>
       <div className="container px-lg-2 p-1">
         {data.map((item, i) => (
           <div key={i}>
-            <p className="mb-4">{item.pText}</p>
+            <p className="mb-4 text-white">{item.pText}</p>
           </div>
         ))}
         <div className="text-center">

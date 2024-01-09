@@ -97,7 +97,7 @@ const Footer = () => {
                                         <div className='foot-compRyts-inr'>
                                             <Link className='foot-loc-text'>FAQs</Link>
                                             <Link className='foot-loc-text'>Privacy Policy</Link>
-                                            <Link className='foot-loc-text'>Terms of Use</Link>
+                                            <Link to='/terms-of-Use' className='foot-loc-text'>Terms of Use</Link>
                                         </div>
                                     </div>
                                 </div>

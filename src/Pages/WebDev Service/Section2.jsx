@@ -76,7 +76,7 @@ function Section2() {
     },
     {
       title: "Change the Fore front",
-      content: `<p>87% of customers crave a personalized shopping experience. 48% of
+      content: `<p class="text-white ps-4">87% of customers crave a personalized shopping experience. 48% of
 people judge a business’s credibility based on its website design.
 75% of internet users prefer mobile-friendly websites. 42% of
 consumers abandon websites that perform poorly.</p>`,
@@ -88,8 +88,8 @@ consumers abandon websites that perform poorly.</p>`,
       accordionContainerClass="accordionContainerClass w-100"
       accordionContentClass="accordionContentClass border-top"
       headingDivClass="accordionContentClass p-2"
-      h3Class="h3Class"
-      contentClass="contentClass"
+      h3Class="h3Class text-white"
+      contentClass="contentClass text-white"
       items={accordionItems}
     />
   );

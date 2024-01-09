@@ -56,16 +56,16 @@ function Section4() {
   return (
     <section className="web-dev-secton-4 py-lg-5 py-3">
       <div className="container web-dev-secton-4-content-wrap py-lg-4 p-1">
-        <h2>{heading}</h2>
+        <h2 className="text-white">{heading}</h2>
         <div className=" m-auto" style={{ width: "min(100%,60rem)" }}>
-          <p className="text-center m-0">{text}</p>
+          <p className="text-center m-0 text-white">{text}</p>
         </div>
         <div className="text-center m-auto mt-2">
           <WhiteLinkButton url="" text="Get Started" />
         </div>
       </div>
       <div className="container my-lg-4 web-dev-secton-4-content-wrap py-lg-4 p-1">
-        <h2>
+        <h2 className="text-white">
           Amplify Your Impact with Our Comprehensive Digital Marketing Solutions
         </h2>
       </div>

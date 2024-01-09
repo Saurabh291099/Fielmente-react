@@ -20,7 +20,7 @@ function Section2() {
         <h2 className="text-white">{heading}</h2>
       </div>
       <div className="text-center text-lg-start text-md-start">
-        <p>{text}</p>
+        <p className="text-white">{text}</p>
       </div>
       <div className="mt-lg-1 mt-md-3 mt-0 text-center text-lg-start text-md-start">
         <WhiteLinkButton url="#" text="get started" />

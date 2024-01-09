@@ -33,10 +33,10 @@ function Section3() {
     <>
       <div className="container web-dev-section-3 my-4 p-2 ">
         <div className="container text-center">
-          <h2>{heading}</h2>
+          <h2 className="text-white">{heading}</h2>
         </div>
         <div className="container  p-0">
-          <p>{peraText}</p>
+          <p className="text-white">{peraText}</p>
         </div>
       </div>
       <div className="container">

@@ -56,7 +56,7 @@ function Section1() {
       <div>
         {pData.map((item, i) => (
           <div key={i} className="mb-2">
-            <p className="text-center text-lg-start text-md-start">
+            <p className="text-center text-lg-start text-md-start text-white">
               {item.text}
             </p>
           </div>
@@ -80,7 +80,7 @@ function Section1() {
               </div>
               <div>
                 <h3 className="text-white">{item.heading}</h3>
-                <p>{item.text}</p>
+                <p className="text-white">{item.text}</p>
               </div>
             </div>
           </div>

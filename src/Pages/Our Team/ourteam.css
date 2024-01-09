@@ -1,0 +1,138 @@
+.ot-banner-heading {
+    color: #F26633;
+    font-family: Lexend Deca;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.4rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+}
+
+.our-team-banner h2 {
+    color: #110D3C;
+    font-family: Lexend Deca;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.85rem;
+    letter-spacing: -0.01875rem;
+}
+
+.our-team-banner p {
+    color: #666;
+    font-family: Lexend Deca;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1375rem;
+    letter-spacing: -0.011rem;
+}
+
+.our-team-banner-img {
+    /* width: 35.625rem; */
+    height: min(100%, 19.6875rem);
+    max-width: 35.625rem;
+}
+
+.team-card {
+    display: flex;
+    width: 23.74875rem;
+    padding: 1.875rem 1.875rem 0rem 1.875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.00063rem;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.team-card-img-wrap {
+    display: flex;
+    padding: 0rem 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.team-img {
+    width: 13.99875rem;
+    height: 13.99875rem;
+    max-width: 13.99913rem;
+}
+
+.team-content-wrap {
+    display: flex;
+    padding: 1.1875rem 1.875rem 1.875rem 1.875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.0625rem;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.team-card-title {
+    display: flex;
+    padding: 0rem 3.08363rem 0.3125rem 3.10263rem;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.team-card-description {
+    display: flex;
+    padding: 0rem 5.36394rem 0rem 5.38481rem;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.team-content-wrap h5 {
+    color: #110D3C;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.0625rem;
+    /* 150% */
+    letter-spacing: -0.0125rem;
+}
+
+.team-content-wrap p {
+    color: #666;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 150% */
+    letter-spacing: -0.011rem;
+}
+
+.section-2 {
+    background-color: #110D3C;
+}
+
+.section-2-heading {
+    color: #FFF;
+    font-family: Lexend Deca;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.85rem;
+    /* 110% */
+    letter-spacing: -0.01875rem;
+}
+
+.section-2-description {
+    color: #8B8B8B;
+    font-family: Lexend Deca;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1375rem;
+    /* 190% */
+    letter-spacing: -0.011rem;
+}

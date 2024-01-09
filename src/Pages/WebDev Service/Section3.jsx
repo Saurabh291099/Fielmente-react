@@ -28,9 +28,9 @@ function Section3() {
   );
   const ColRightData = (
     <div>
-      <h2>{heading}</h2>
+      <h2 className="text-white">{heading}</h2>
       {data.map((item, i) => (
-        <p key={i}>{item.description}</p>
+        <p key={i} className="text-white">{item.description}</p>
       ))}
       <WhiteLinkButton url="#" text="get started"/>
     </div>
